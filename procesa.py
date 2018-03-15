@@ -1,5 +1,5 @@
 import numpy as np
-
+ 
 data=np.loadtxt("monthrg.dat", usecols=(0,1,2,3))
 years=data[:,0]+(data[:,1]-1)/12.0
 sunspot=data[:,3]
